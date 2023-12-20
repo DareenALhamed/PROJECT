@@ -293,9 +293,10 @@ header {
 }
 .benefit-box .box {
   border-radius: 12px;
-  background: #fff;
+  background-color: #fff;
   width: calc((100% - 20px) / 3);
   display: flex;
+  flex-wrap: wrap;
   padding: 50px;
   flex-direction: column;
 
@@ -309,6 +310,7 @@ header {
   font-size: 80px;
   font-weight: 700;
   line-height: 24px;
+  flex-wrap: wrap;
 }
 
 .box h4 {
@@ -378,6 +380,128 @@ header {
   background-color: #fcfcfd;
 }
 
+.course-box .container {
+  width: calc(100% - 324px);
+  margin: auto;
+}
+
+.course-box .rows {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.course-box.row-one {
+  display: flex;
+
+  gap: 30px;
+}
+.course-box .row-two {
+  display: flex;
+  gap: 30px;
+}
+.course-box .row-three {
+  display: flex;
+
+  gap: 30px;
+}
+.course-box .box {
+  border-radius: 12px;
+  background-color: #fff;
+  width: calc((100% - 30px) / 2);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  flex-direction: column;
+  border-radius: 12px;
+  border: 1px solid #fff;
+}
+
+.course-box .box img {
+  width: 100%;
+}
+
+.box .level-by {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.level-by .week-level {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.week-level .week,
+.level {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid #f1f1f3;
+  background-color: #fff;
+}
+
+.level-by h5 {
+  color: #262626;
+  font-family: Be Vietnam Pro;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.course-box .box h4 {
+  text-align: start;
+  color: #262626;
+  font-family: Be Vietnam Pro;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.144px;
+}
+.course-box .box p {
+  color: #4c4c4d;
+  font-family: Be Vietnam Pro;
+  font-size: 18px;
+  font-weight: 400;
+}
+.course-box .box .h4-p {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 30px;
+}
+.get-it-now {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 18px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #f1f1f3;
+  background-color: #f7f7f8;
+}
+.get-it-now {
+  color: #262626;
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.testi-box .box p {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  align-items: flex-start;
+  gap: 10px;
+  color: #4c4c4d;
+  font-family: Be Vietnam Pro;
+  font-size: 18px;
+  font-weight: 400;
+}
+
 .testi {
   display: flex;
   flex-wrap: wrap;
@@ -419,14 +543,6 @@ header {
   background-color: #fcfcfd;
 }
 
-.testi-box {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  width: calc(100% - 324px);
-  margin: auto;
-}
-
 .testi-box-start {
   margin: auto;
   display: flex;
@@ -446,6 +562,81 @@ header {
   gap: 30px;
   justify-content: center;
 }
+
+.testi-box .container {
+  width: calc(100% - 324px);
+  margin: auto;
+ 
+}
+
+.testi-box .rows {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.testi-box .row-one {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.testi-box .row-two {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  background-color: yellowgreen;
+}
+.testi-box .box p{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  align-items: flex-start;
+  gap: 10px;
+  color: #4c4c4d;
+  font-family: Be Vietnam Pro;
+  font-size: 18px;
+  font-weight: 400;
+  background:  #FCFCFD;
+  border-bottom: 1px solid #F1F1F3;
+  
+  
+}
+.testi-box .img-p {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 50px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 30px 50px;
+  background-color:  #FCFCFD;
+}
+.img-p .img-name {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  gap: 15px;
+}
+.testi-box .read-full p{
+  
+  
+  display: flex;
+padding: 18px 24px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 8px;
+border: 1px solid  #F1F1F3;
+background-color: #F7F7F8;
+
+
+}
+
+
+
 
 .footer {
   background-color: #fff;
