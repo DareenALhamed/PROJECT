@@ -118,15 +118,11 @@ header .row .icon-none {
   width: calc(100% - 955px);
   margin: auto;
   margin-top: 155px;
-  
 }
 
 .first-line {
-  
   display: flex;
   flex-wrap: wrap;
-  
-  
 }
 .unlock-logo {
   margin: auto;
@@ -139,7 +135,6 @@ header .row .icon-none {
   padding: 14px 30px 14px 20px;
   justify-content: center;
   align-items: center;
-  
 }
 
 .first-line .unlock-logo svg {
@@ -172,9 +167,8 @@ header .row .icon-none {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
- 
 }
-.second-line h2{
+.second-line h2 {
   font-family: Be Vietnam Pro;
   font-weight: 500;
   color: #262626;
@@ -186,9 +180,8 @@ header .row .icon-none {
   margin-top: 10px;
   justify-content: center;
   align-items: center;
- 
 }
-.third-line h4{
+.third-line h4 {
   font-family: Be Vietnam Pro;
   font-weight: 400;
   color: #262626;
@@ -201,7 +194,6 @@ header .row .icon-none {
   gap: 8px;
   justify-content: center;
   align-items: center;
-  
 }
 .explore {
   border-radius: 8px;
@@ -226,19 +218,27 @@ header .row .icon-none {
   font-family: Be Vietnam Pro;
   font-size: 18px;
   font-weight: 500;
- 
 }
 
-
-    
-
+.zoom-amazon {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 325px);
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #f1f1f3;
+  background-color: #fcfcfd;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 @media screen and (max-width: 391px) {
   header .container {
     width: calc(100% - 32px);
     margin: auto;
     padding: 40px 16px 0px 16px;
-    
-    
   }
 
   header .row {
@@ -248,7 +248,6 @@ header .row .icon-none {
     align-items: center;
     width: 100%;
     gap: 10px;
-    
   }
 
   header .nav {
@@ -258,7 +257,6 @@ header .row .icon-none {
   header .row .logo svg {
     width: 29.63px;
     height: 29.63px;
-    
   }
   header .logo {
     display: flex;
@@ -267,7 +265,6 @@ header .row .icon-none {
     padding: 5.185px 5.185px 5.185px 5.186px;
     justify-content: center;
     align-items: center;
-    
   }
 
   header .sinlog {
@@ -291,32 +288,27 @@ header .row .icon-none {
     display: block;
   }
 
-.unlock .container{
-  width: calc(100% - 30px);
-  margin: auto;
-  margin-top: 91px;}
-  
+  .unlock .container {
+    width: calc(100% - 30px);
+    margin: auto;
+    margin-top: 91px;
+  }
+
   .unlock-logo {
-    
     gap: 10px;
     border-radius: 8px;
     padding: 14px;
-    
-    
-    
   }
   .first-line .unlock-logo svg {
     width: 24px;
     height: 24px;
   }
   .unlock-logo .flash-logo {
-    
     border-radius: 6px;
-    
+
     padding: 8px;
   }
   .first-line .unlock-pot h1 {
-    
     font-size: 14px;
   }
   .first-line .something {
@@ -324,76 +316,45 @@ header .row .icon-none {
     box-sizing: border-box;
     left: 10px;
     top: 204px;
-    
   }
-  
+
   .second-line {
-    
     justify-content: center;
     align-items: center;
     margin-top: 16px;
     font-size: 20px;
     width: 100%;
     text-align: center;
-    
-   
   }
 
-  
-.third-line {
-  
-  margin-top: 6px;
-  
- 
+  .third-line {
+    margin-top: 6px;
+  }
+  .third-line h4 {
+    font-family: Be Vietnam Pro;
+    font-weight: 400;
+    color: #262626;
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+  }
+  .explore-view {
+    margin-top: 50px;
+    gap: 10px;
+  }
+  .explore {
+    border-radius: 6px;
+    padding: 14px 20px;
+    font-size: 14px;
+  }
+
+  .view {
+    padding: 14px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
 }
-.third-line h4{
-  font-family: Be Vietnam Pro;
-  font-weight: 400;
-  color: #262626;
-  font-size: 14px;
-  font-style: normal;
-  text-align: center;
-}
-.explore-view {
-  
-  margin-top: 50px;
-  gap: 10px;
-  
-
-}
-.explore {
-  border-radius: 6px;
-  padding: 14px 20px;
-  font-size: 14px;
-
-}
-
-.view {
-  padding: 14px 20px;
-  border-radius: 6px;
-  font-size: 14px;
- 
-}
-
-}
-
-
-
 /*
-.zoom-amazon {
-  display: flex;
-  flex-wrap: wrap;
-  width: calc(100% - 325px);
-  margin: auto;
-  padding: 30px;
-  border-radius: 12px;
-  border: 1px solid #f1f1f3;
-  background-color: #fcfcfd;
-  justify-content: center;
-  gap: 80px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
 
 .image img {
   display: flex;
