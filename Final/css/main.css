@@ -2651,7 +2651,7 @@ header .row .icon-none {
   }
 }
 
-@media screen and (min-width: 1021px) and (max-width: 1441px) {
+@media screen and (min-width: 1021px) and (max-width: 1600px) {
   header .container {
     width: calc(100% - 40px);
     margin: auto;
