@@ -14,8 +14,9 @@ body {
 
 header {
   position: sticky;
- top: 0px;
+  top: 0px;
   z-index: 5;
+  background-color: #f1f1f3;
 }
 
 .active {
@@ -124,7 +125,9 @@ header .row .icon-none {
 .first-line {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   gap: 10px;
+  position: relative;
 }
 .unlock-logo {
   margin: auto;
@@ -159,8 +162,8 @@ header .row .icon-none {
 }
 .first-line .something {
   position: absolute;
-  left: 650px;
-  top: 265px;
+  left: 180px;
+  top: -30px;
 }
 
 .second-line {
@@ -759,7 +762,10 @@ header .row .icon-none {
   font-size: 14px;
   font-weight: 500;
   position: absolute;
-  left: 204px;
+  right: 180px;
+  top: 70px;
+  justify-content: center;
+  align-items: center;
 }
 .pricing-box .free-plan {
   display: flex;
@@ -785,6 +791,7 @@ header .row .icon-none {
   font-family: Be Vietnam Pro;
   font-size: 80px;
   font-weight: 600;
+  position: relative;
 }
 
 .pricing-box .features {
@@ -930,14 +937,15 @@ header .row .icon-none {
 }
 
 @media screen and (max-width: 426px) {
+  header {
+    background-color: #f1f1f3;
+  }
   header .container {
     width: calc(100% - 32px);
     margin: auto;
     padding: 40px 16px 0px 16px;
     position: sticky;
     top: 0;
-    background-color: #F1F1F3;
-    
   }
 
   header .row {
@@ -992,7 +1000,9 @@ header .row .icon-none {
     margin: auto;
     margin-top: 91px;
   }
-
+  .unlock .first-line {
+    position: relative;
+  }
   .unlock-logo {
     gap: 10px;
     border-radius: 8px;
@@ -1013,8 +1023,8 @@ header .row .icon-none {
   .first-line .something {
     position: absolute;
     box-sizing: border-box;
-    left: 25px;
-    top: 200px;
+    left: -10px;
+    top: -20px;
   }
 
   .second-line {
@@ -1410,7 +1420,9 @@ header .row .icon-none {
     gap: 30px;
     padding: 30px 20px 20px 20px;
   }
-
+  .box .price {
+    position: relative;
+  }
   .pricing-box .box h2::after {
     content: "/month";
     color: #4c4c4d;
@@ -1418,8 +1430,8 @@ header .row .icon-none {
     font-size: 14px;
     font-weight: 500;
     position: absolute;
-    left: 204px;
-   
+    left: 170px;
+    top: 70px;
   }
   .pricing-box .free-plan {
     padding: 8px 22px;
@@ -1531,14 +1543,16 @@ header .row .icon-none {
 }
 
 @media screen and (min-width: 427px) and (max-width: 991px) {
+  header {
+    background-color: #f1f1f3;
+  }
   header .container {
     width: calc(100% - 36px);
     margin: auto;
     padding: 30px 12px 0px 12px;
     position: sticky;
     top: 0;
-    background-color: #F1F1F3;
-   
+    background-color: #f1f1f3;
   }
 
   header .row {
@@ -1589,19 +1603,17 @@ header .row .icon-none {
   }
 
   .unlock .container {
-    
     margin: auto;
     margin-top: 81px;
     width: calc(100% - 20px);
-    
-    
   }
-
+  .unlock .first-line {
+    position: relative;
+  }
   .unlock-logo {
     gap: 12px;
     border-radius: 8px;
     padding: 14px;
-
   }
   .first-line .unlock-logo svg {
     width: 24px;
@@ -1609,17 +1621,17 @@ header .row .icon-none {
   }
   .unlock-logo .flash-logo {
     border-radius: 6px;
-
     padding: 8px;
   }
+
   .first-line .unlock-pot h1 {
     font-size: 14px;
   }
   .first-line .something {
     position: absolute;
     box-sizing: border-box;
-    left: 210px;
-    top: 175px;
+    left: 200px;
+    top: -25px;
   }
 
   .second-line {
@@ -1629,7 +1641,6 @@ header .row .icon-none {
     font-size: 18px;
     width: 100%;
     text-align: center;
-    
   }
 
   .third-line {
@@ -2016,7 +2027,9 @@ header .row .icon-none {
     gap: 30px;
     padding: 30px 20px 20px 20px;
   }
-
+  .box .price {
+    position: relative;
+  }
   .pricing-box .box h2::after {
     content: "/month";
     color: #4c4c4d;
@@ -2024,8 +2037,7 @@ header .row .icon-none {
     font-size: 14px;
     font-weight: 500;
     position: absolute;
-    left: 204px;
-    
+    left: 400px;
   }
   .pricing-box .free-plan {
     padding: 8px 22px;
@@ -2040,7 +2052,6 @@ header .row .icon-none {
     display: flex;
     padding: 20px;
     gap: 20px;
-    
   }
 
   .pricing-box .feature {
@@ -2053,7 +2064,6 @@ header .row .icon-none {
   }
   .feature p {
     font-size: 12px;
-    
   }
 
   .pricing-box .available {
@@ -2138,17 +2148,18 @@ header .row .icon-none {
   }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1020px) {
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  header {
+    background-color: #f1f1f3;
+  }
   header .container {
     width: calc(100% - 20px);
     margin: auto;
     margin-top: 20px;
-    background-color: #F1F1F3;
-    
+    background-color: #f1f1f3;
   }
   header .row {
     width: calc(100% - 120px);
-    
   }
 
   .logo svg {
@@ -2172,6 +2183,9 @@ header .row .icon-none {
     width: calc(100% - 350px);
     margin-top: 111px;
   }
+  .unlock .first-line {
+    position: relative;
+  }
   .unlock-logo {
     gap: 10px;
     border-radius: 8px;
@@ -2189,11 +2203,9 @@ header .row .icon-none {
     font-size: 36px;
   }
   .first-line .something {
-    left: 170px;
-    top: 225px;
+    left: -20px;
+    top: -25px;
     position: absolute;
-  
-    
   }
 
   .second-line {
@@ -2238,7 +2250,6 @@ header .row .icon-none {
 
   .benefits .container {
     width: calc(100% - 160px);
-   
   }
   .benefits .row {
     gap: 4px;
@@ -2518,6 +2529,9 @@ header .row .icon-none {
     gap: 30px;
     padding: 40px 24px 24px 24px;
   }
+  .box .price {
+    position: relative;
+  }
 
   .pricing-box .box h2::after {
     content: "/month";
@@ -2526,8 +2540,7 @@ header .row .icon-none {
     font-size: 16px;
     font-weight: 500;
     position: absolute;
-    left: 204px;
-   
+    left: 220px;
   }
   .pricing-box .free-plan {
     padding: 10px 22px;
@@ -2651,17 +2664,18 @@ header .row .icon-none {
   }
 }
 
-@media screen and (min-width: 1021px) and (max-width: 1600px) {
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  header {
+    background-color: #f1f1f3;
+  }
   header .container {
     width: calc(100% - 40px);
     margin: auto;
     margin-top: 20px;
-    background-color: #F1F1F3;
-    
+    background-color: #f1f1f3;
   }
   header .row {
     width: calc(100% - 120px);
-    
   }
 
   .logo svg {
@@ -2690,6 +2704,9 @@ header .row .icon-none {
     border-radius: 8px;
     padding: 12px 24px 12px 12px;
   }
+  .unlock .first-line {
+    position: relative;
+  }
   .first-line .unlock-logo svg {
     width: 24px;
     height: 24px;
@@ -2701,12 +2718,11 @@ header .row .icon-none {
   .first-line .unlock-pot h1 {
     font-size: 36px;
   }
-  
+
   .first-line .something {
-    left: 280px;
-    top: 235px;
+    left: 200px;
+    top: -20px;
     position: absolute;
-    
   }
 
   .second-line {
@@ -3018,19 +3034,20 @@ header .row .icon-none {
   .pricing-box .container {
     width: calc(100% - 160px);
     margin: auto;
-    
   }
   .pricing-box .row {
     display: flex;
     gap: 30px;
     width: 100%;
     padding: 40px;
-    
   }
   .pricing-box .box {
     width: calc((100% - 30px) / 2);
     gap: 30px;
     padding: 35px 22px 22px 22px;
+  }
+  .box .price {
+    position: relative;
   }
 
   .pricing-box .box h2::after {
@@ -3040,8 +3057,7 @@ header .row .icon-none {
     font-size: 16px;
     font-weight: 500;
     position: absolute;
-    left: 204px;
-    
+    left: 330px;
   }
   .pricing-box .free-plan {
     padding: 10px 22px;
@@ -3056,14 +3072,13 @@ header .row .icon-none {
     display: flex;
     padding: 25px;
     gap: 25px;
-    
   }
 
   .pricing-box .feature {
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
-    
+
     align-items: start;
   }
   .feature p {
@@ -3166,4 +3181,3 @@ header .row .icon-none {
     margin-bottom: 20;
   }
 }
-
