@@ -124,6 +124,7 @@ header .row .icon-none {
 .first-line {
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
 }
 .unlock-logo {
   margin: auto;
@@ -806,7 +807,7 @@ header .row .icon-none {
   color: #4c4c4d;
   font-family: Be Vietnam Pro;
   font-size: 18px;
-
+  flex: 1 0 0;
   font-weight: 400;
 }
 
@@ -935,7 +936,8 @@ header .row .icon-none {
     padding: 40px 16px 0px 16px;
     position: sticky;
     top: 0;
-    background-color: yellowgreen;
+    background-color: #F1F1F3;
+    
   }
 
   header .row {
@@ -1417,7 +1419,7 @@ header .row .icon-none {
     font-weight: 500;
     position: absolute;
     left: 204px;
-    background-color: yellowgreen;
+   
   }
   .pricing-box .free-plan {
     padding: 8px 22px;
@@ -1535,6 +1537,7 @@ header .row .icon-none {
     padding: 30px 12px 0px 12px;
     position: sticky;
     top: 0;
+    background-color: #F1F1F3;
    
   }
 
@@ -1589,7 +1592,8 @@ header .row .icon-none {
     
     margin: auto;
     margin-top: 81px;
-    width: 100%;
+    width: calc(100% - 20px);
+    
     
   }
 
@@ -1622,9 +1626,10 @@ header .row .icon-none {
     justify-content: center;
     align-items: center;
     margin-top: 16px;
-    font-size: 20px;
+    font-size: 18px;
     width: 100%;
     text-align: center;
+    
   }
 
   .third-line {
@@ -2020,7 +2025,7 @@ header .row .icon-none {
     font-weight: 500;
     position: absolute;
     left: 204px;
-    background-color: yellowgreen;
+    
   }
   .pricing-box .free-plan {
     padding: 8px 22px;
@@ -2133,11 +2138,12 @@ header .row .icon-none {
   }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1024px) {
+@media screen and (min-width: 992px) and (max-width: 1020px) {
   header .container {
     width: calc(100% - 20px);
     margin: auto;
     margin-top: 20px;
+    background-color: #F1F1F3;
     
   }
   header .row {
@@ -2167,6 +2173,7 @@ header .row .icon-none {
     margin-top: 111px;
   }
   .unlock-logo {
+    gap: 10px;
     border-radius: 8px;
     padding: 12px 24px 12px 12px;
   }
@@ -2231,7 +2238,7 @@ header .row .icon-none {
 
   .benefits .container {
     width: calc(100% - 160px);
-    background-color: yellowgreen;
+   
   }
   .benefits .row {
     gap: 4px;
@@ -2520,7 +2527,7 @@ header .row .icon-none {
     font-weight: 500;
     position: absolute;
     left: 204px;
-    background-color: yellowgreen;
+   
   }
   .pricing-box .free-plan {
     padding: 10px 22px;
@@ -2644,11 +2651,12 @@ header .row .icon-none {
   }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1441px) {
+@media screen and (min-width: 1021px) and (max-width: 1441px) {
   header .container {
     width: calc(100% - 40px);
     margin: auto;
     margin-top: 20px;
+    background-color: #F1F1F3;
     
   }
   header .row {
@@ -2674,10 +2682,11 @@ header .row .icon-none {
     font-size: 14px;
   }
   .unlock .container {
-    width: calc(100% - 500px);
+    width: calc(100% - 350px);
     margin-top: 121px;
   }
   .unlock-logo {
+    gap: 10px;
     border-radius: 8px;
     padding: 12px 24px 12px 12px;
   }
@@ -2692,8 +2701,9 @@ header .row .icon-none {
   .first-line .unlock-pot h1 {
     font-size: 36px;
   }
+  
   .first-line .something {
-    left: 380px;
+    left: 280px;
     top: 235px;
     position: absolute;
     
@@ -3008,17 +3018,19 @@ header .row .icon-none {
   .pricing-box .container {
     width: calc(100% - 160px);
     margin: auto;
+    
   }
   .pricing-box .row {
     display: flex;
     gap: 30px;
     width: 100%;
-    padding: 50px;
+    padding: 40px;
+    
   }
   .pricing-box .box {
     width: calc((100% - 30px) / 2);
     gap: 30px;
-    padding: 40px 24px 24px 24px;
+    padding: 35px 22px 22px 22px;
   }
 
   .pricing-box .box h2::after {
@@ -3029,7 +3041,7 @@ header .row .icon-none {
     font-weight: 500;
     position: absolute;
     left: 204px;
-    background-color: yellowgreen;
+    
   }
   .pricing-box .free-plan {
     padding: 10px 22px;
@@ -3042,19 +3054,21 @@ header .row .icon-none {
 
   .pricing-box .features {
     display: flex;
-    padding: 30px;
-    gap: 20px;
+    padding: 25px;
+    gap: 25px;
+    
   }
 
   .pricing-box .feature {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    gap: 8px;
-    padding: 12px;
+    gap: 6px;
+    
+    align-items: start;
   }
   .feature p {
-    font-size: 14px;
+    font-size: 12px;
+    flex: 1 0 0;
   }
 
   .pricing-box .available {
@@ -3064,8 +3078,8 @@ header .row .icon-none {
     display: flex;
     padding: 4px;
     border-radius: 4px;
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
     align-items: start;
   }
   .get-started {
