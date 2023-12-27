@@ -2664,7 +2664,7 @@ header .row .icon-none {
   }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 1025px) and (max-width: 1445px) {
   header {
     background-color: #f1f1f3;
   }
